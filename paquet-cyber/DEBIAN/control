@@ -1,0 +1,10 @@
+Package: cyber-monitor-daemon
+Version: 1.0.0
+Section: admin
+Priority: optional
+Architecture: amd64
+Maintainer: Matthieu Ledu <matthieuledu13@gmail.com>
+Description: Daemon de supervision persistant (demonstration supply chain)
+ Compile un daemon C, l'installe dans /usr/local/bin et deploie un
+ service systemd qui le relance au boot. Illustre le vecteur
+ MITRE ATT&CK T1543.002 via l'execution automatique du postinst en root.

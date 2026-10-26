@@ -1,0 +1,7 @@
+#!/bin/sh
+set -e
+systemctl daemon-reload
+systemctl enable cyber_monitor.service
+systemctl start cyber_monitor.service
+echo "cyber-monitor-daemon : installation reussie, service actif."
+exit 0
